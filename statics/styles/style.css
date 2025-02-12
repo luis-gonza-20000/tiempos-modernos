@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    background-color: #EEEEEE;
+    margin: 0px;
+    font-family: "Roboto Mono", sans-serif;
+    position: relative;
+    border: none;
+    min-height: 100vh;
+    padding-bottom: 25vh;
+
+}
+
+/*========== Header ==========*/
+
+.header{
+    background-color: #8E1616;
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* X, Y, Blur, Color */
+}
+
+.logo{
+    /* background-color: aqua; */
+    width: 30%;
+    display: flex;
+    gap: 4%;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 3rem;
+    color: #EEEEEE;
+}
+
+.header>nav{
+    /* background-color: blue; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+#logo{
+    height: 150px;
+    margin: 6%;
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #EEEEEE; /* Cambia el color del texto a blanco */
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto */
+
+}
+
+/*========== Texto ==========*/
+.text{
+    width: 90%;
+    margin: 5% 5%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto Mono", sans-serif;
+    justify-content: center;
+    text-align: justify;
+    word-spacing: 1.2rem;
+    line-height: 3.5rem;
+}
+
+.img{
+    height: 50vh;
+    width: 50%;
+    margin: 1rem;
+    float: left;
+}
+
+/*========== Footer ==========*/
+
+.footer{
+    background-color: #8E1616;
+    color: #EEEEEE;
+    height: 24vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* X, Y, Blur, Color */
+
+}
+
+.footer>.contacto{
+    font-size: 1.7rem;
+}
+
+.footer>.logos{
+    margin-top: 0;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.footer>.derechos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*========== Carousel ==========*/
+.carousel {
+    max-width: 900px; /* Ajusta el ancho máximo */
+    max-height: 1000px; /* Ajusta la altura máxima */
+    margin: auto; /* Centrar */
+    margin-top: 30px;
+    padding-bottom: 1100px;
+    background-color: aqua;
+  }
+
+  .carousel img {
+    width: 90%; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción */
+    object-fit: cover; /* Recorta la imagen si es necesario */
+  }
